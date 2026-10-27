@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <ItemGroup>
+    <Filter Include="config">
+      <UniqueIdentifier>{0DF84ACB-A611-55B7-B98C-CA09D3F9906A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{D165A1D9-A1C7-5120-A773-2B8BDDBB2F1E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core">
+      <UniqueIdentifier>{243C7DAC-B3F6-5E0E-8CA2-8DC0B41BC02A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game">
+      <UniqueIdentifier>{01578344-72A2-5CBD-BB22-B251083F7CEC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\input">
+      <UniqueIdentifier>{0F7D281D-0EC1-59B9-905E-7E777D141B2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\platform">
+      <UniqueIdentifier>{65563F13-2202-5EA8-9BF1-0E683FB305DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render">
+      <UniqueIdentifier>{29E2DA4E-A35A-5BEF-A2F0-CC97C920C2B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ui">
+      <UniqueIdentifier>{7345BF9F-CF29-5540-9C09-F3E254529755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\visuals">
+      <UniqueIdentifier>{24D48326-08FA-5E8C-9333-9363E87F5A8D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests">
+      <UniqueIdentifier>{98DD8B54-8615-5D12-91C1-F3DBD751E432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor">
+      <UniqueIdentifier>{5E74E38E-7F3A-5823-81A7-273CB0653610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\imgui">
+      <UniqueIdentifier>{02AE5585-9658-5E84-9BCD-4A4B20B71F33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\imgui\backends">
+      <UniqueIdentifier>{1AA63620-15C7-5259-BDD8-062654D4547D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\platform\window.cpp">
+      <Filter>src\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\alpha_validation.cpp">
+      <Filter>src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\renderer.cpp">
+      <Filter>src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\backends\imgui_impl_dx11.cpp">
+      <Filter>vendor\imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\backends\imgui_impl_win32.cpp">
+      <Filter>vendor\imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui.cpp">
+      <Filter>vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_draw.cpp">
+      <Filter>vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_tables.cpp">
+      <Filter>vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_widgets.cpp">
+      <Filter>vendor\imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\core\types.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\game_reader.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\offsets.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\python_profiles.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\input\aim_target.h">
+      <Filter>src\input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\input\recoil.h">
+      <Filter>src\input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\platform\window.h">
+      <Filter>src\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\renderer.h">
+      <Filter>src\render</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\menu.h">
+      <Filter>src\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\theme.h">
+      <Filter>src\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visuals\esp.h">
+      <Filter>src\visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visuals\projection.h">
+      <Filter>src\visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\backends\imgui_impl_dx11.h">
+      <Filter>vendor\imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\backends\imgui_impl_win32.h">
+      <Filter>vendor\imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imconfig.h">
+      <Filter>vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imgui.h">
+      <Filter>vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imgui_internal.h">
+      <Filter>vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imstb_rectpack.h">
+      <Filter>vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imstb_textedit.h">
+      <Filter>vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imstb_truetype.h">
+      <Filter>vendor\imgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="build.bat" />
+    <None Include="config\layout.ini">
+      <Filter>config</Filter>
+    </None>
+    <None Include="README.md" />
+    <None Include="test.bat" />
+    <None Include="tests\aim_target_tests.cpp">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\life_filter_tests.cpp">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\projection_tests.cpp">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\recoil_tests.cpp">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="tests\team_filter_tests.cpp">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="vendor\imgui\LICENSE.txt">
+      <Filter>vendor\imgui</Filter>
+    </None>
+  </ItemGroup>
+</Project>
